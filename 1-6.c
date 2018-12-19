@@ -7,7 +7,7 @@ int main() {
     while ((c = getchar()) != EOF) {
         putchar(c);
 
-        // operator precedence as per 1.6
+        // operator precedence as per 1-6
         // verify that getchar() != EOF is 0/1
         printf(" %d ", getchar() != EOF);
     }
